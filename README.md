@@ -62,11 +62,6 @@ Android Studio Ladybug (or newer)
 JDK 17 or higher
 
 Minimum SDK level: 24 (Android 7.0)
-
-Installation
-Clone the repository:
-
-Bash
 git clone https://github.com/your-username/your-repo-name.git
 Open in Android Studio and sync Gradle files.
 

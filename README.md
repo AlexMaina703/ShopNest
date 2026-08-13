@@ -42,26 +42,7 @@ Inline Reified Network Helpers: Centralized HTTP request handling using generic,
 
 Global Error Wrapping: Network responses are mapped into unified ResultWrapper.Success or ResultWrapper.Failure structures to protect the UI layer from uncaught exceptions (ClientRequestException, IOException).
 
-📂 Project Structure
-Plaintext
-com.example.app/
-├── data/
-│   ├── di/              # Koin DI modules (networkModule, repositoryModule)
-│   ├── model/           # API DTO models (DataProductModel)
-│   ├── mapper/          # DTO to Domain Mappers
-│   └── network/         # Ktor client implementation & helper functions
-├── domain/
-│   ├── model/           # Core enterprise/business models (Product)
-│   ├── repository/      # Repository interfaces
-│   └── network/         # Network contracts/interfaces
-└── ui/                  # Composables, state holders, and ViewModels
-🚀 Getting Started
-Prerequisites
-Android Studio Ladybug (or newer)
 
-JDK 17 or higher
-
-Minimum SDK level: 24 (Android 7.0)
 git clone https://github.com/your-username/your-repo-name.git
 Open in Android Studio and sync Gradle files.
 

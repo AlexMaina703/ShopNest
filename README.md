@@ -35,15 +35,4 @@ The project enforces a strict Separation of Concerns using Clean Architecture to
 │                         Data Layer                          │
 │     (Repositories, Ktor Network Client, DTO Mappers)        │
 └─────────────────────────────────────────────────────────────┘
-Key Highlights
-Domain Abstraction: The UI layer never interacts with raw Data Transfer Objects (DTOs) or network libraries directly.
 
-Inline Reified Network Helpers: Centralized HTTP request handling using generic, type-safe wrappers (makeWebRequest) that encapsulate Ktor calls and handle deserialization dynamically.
-
-Global Error Wrapping: Network responses are mapped into unified ResultWrapper.Success or ResultWrapper.Failure structures to protect the UI layer from uncaught exceptions (ClientRequestException, IOException).
-
-
-git clone https://github.com/your-username/your-repo-name.git
-Open in Android Studio and sync Gradle files.
-
-Run the app on an emulator or physical device.

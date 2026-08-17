@@ -17,22 +17,5 @@ Dependency Injection: Koin
 Architecture: Clean Architecture + MVVM (Model-View-ViewModel)
 
 🏗 Architecture & Design Patterns
-The project enforces a strict Separation of Concerns using Clean Architecture to ensure testability, scalability, and maintainability:
 
-┌─────────────────────────────────────────────────────────────┐
-│                          UI Layer                           │
-│           (Jetpack Compose Screens & ViewModels)            │
-└──────────────────────────────┬──────────────────────────────┘
-                               │
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│                        Domain Layer                         │
-│           (Use Cases, Domain Models, Contracts)             │
-└──────────────────────────────▲──────────────────────────────┘
-                               │
-                               ▼
-┌─────────────────────────────────────────────────────────────┐
-│                         Data Layer                          │
-│     (Repositories, Ktor Network Client, DTO Mappers)        │
-└─────────────────────────────────────────────────────────────┘
 

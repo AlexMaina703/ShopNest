@@ -10,12 +10,3 @@ Asynchronous Programming: Kotlin Coroutines & Flow
 
 Networking: Ktor Client (HttpClient, CIO engine, ContentNegotiation, Logging)
 
-Serialization: kotlinx.serialization (JSON parsing)
-
-Dependency Injection: Koin
-
-Architecture: Clean Architecture + MVVM (Model-View-ViewModel)
-
-🏗 Architecture & Design Patterns
-
-

@@ -4,9 +4,4 @@ A modern, production-ready Android e-commerce application built with Kotlin, Jet
 🛠 Tech Stack & Libraries
 Language: Kotlin
 
-UI Framework: Jetpack Compose
-
-Asynchronous Programming: Kotlin Coroutines & Flow
-
-Networking: Ktor Client (HttpClient, CIO engine, ContentNegotiation, Logging)
 
